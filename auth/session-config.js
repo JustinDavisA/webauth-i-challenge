@@ -1,6 +1,6 @@
 const session = require('express-session');
 const KnexSessionStore = require('connect-session-knex')(session);
-const configuredKnex = require('../database/dbConfig.js');
+const configuredKnex = require('../data/dbConfig.js');
 
 module.exports = {
   name: 'sesh',
